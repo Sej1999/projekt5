@@ -6,10 +6,47 @@
     padding: 0;
 }
 
+/*Droid Serif Regular
+
+font-family: droid-serif, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Droid Serif Bold
+
+font-family: droid-serif, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Droid Serif Italic
+
+font-family: droid-serif, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Droid Serif Bold Italic
+
+font-family: droid-serif, serif;
+
+font-weight: 700;
+
+font-style: italic;*/
+
+
+/* HEADER */
 header {
     height: 6rem;
     width: 100%;
-    background-color: red;
+    border-bottom: 2px solid black;
     position: fixed;
 }
 
@@ -18,17 +55,35 @@ header {
 }
 
 .main-menu {
-    margin-top: 15px;
     float: right;
     display: flex;
+    margin-top: 15px;
+    margin-right: 30px;
 }
 
 .main-menu li a {
     color: black;
     padding: 10px;
-    background-color: blue;
     text-decoration: none;
     font-family: droid-serif, serif;
+    font-weight: bold;
+}
+
+.main-menu li a:hover {
+    opacity: 70%;
+}
+
+.main-menu li:nth-child(5) {
+    border: 2px solid black;
+}
+
+.main-menu li:nth-child(6) {
+    padding-left: 10px;
+}
+
+.main-menu li:nth-child(6):hover {
+    opacity: 60%;
+    cursor: pointer;
 }
 
 .main-menu li button {
@@ -36,4 +91,14 @@ header {
     height: 50px;
     font-family: droid-serif, serif;
     font-weight: bold;
+    margin: 0;
+    border: 0;
+}
+/* HEADER END */
+
+.push {
+    margin-top: 0px;
+    height: 200rem;
+    width: 100px;
+    background-color: red;
 }
