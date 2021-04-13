@@ -98,7 +98,7 @@ header {
 
 .container {
     margin-top: margin 0 auto;
-    height: 200rem;
-    width: 100px;
+    height: 100vh;
+    max-width: 100%;
     background-color: red;
 }
