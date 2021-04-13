@@ -97,7 +97,7 @@ header {
 /* HEADER END */
 
 .container {
-    margin-top: 0px;
+    margin-top: margin 0; auto;
     height: 200rem;
     width: 100px;
     background-color: red;
