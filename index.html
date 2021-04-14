@@ -4,7 +4,7 @@
         <title>Ventilen - Forside</title>
         <link rel="stylesheet" href="core.css">
         <meta charset="UTF-8">
-        <script src="core.js"></script>
+        <script src="core.js" defer></script>
     </head>
 
     <body>
@@ -23,10 +23,20 @@
        </header>
        <div class="container1">
 
-       <div class="box"></div>
-       <div class="box"></div>
-       <div class="box"></div>
-       <div class="box"></div>
+       <div class="slide-container">
+           <img class="slideImg slide-ani" src="images/img01.jpg" alt="">
+           <img class="slideImg slide-ani" src="images/img02.jpg" alt="">
+           <img class="slideImg slide-ani" src="images/img03.jpg" alt="">
+           <img class="slideImg slide-ani" src="images/img04.jpg" alt="">
+           <!--<div class="dot-container">
+            <span class="dot" onclick="currentImg(1)"></span>
+            <span class="dot" onclick="currentImg(2)"></span>
+            <span class="dot" onclick="currentImg(3)"></span>
+            <span class="dot" onclick="currentImg(4)"></span>
+           </div>-->
+       </div>
+
+
         </div><!--Container 1-->
 
         <div class="container2">
@@ -41,6 +51,8 @@
 
         </div><!--Container 4-->
 
-        <footer></footer>
+        <footer>
+            
+        </footer>
     </body>
 </html>
