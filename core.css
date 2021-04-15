@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    list-style-type: none;
     padding: 0;
 }
 
@@ -133,6 +132,7 @@ header {
     display: flex;
     margin-top: 15px;
     margin-right: 30px;
+    list-style-type: none;
 }
 
 .main-menu li a {
@@ -168,6 +168,7 @@ header {
     padding-top: 6rem;
     height: 100vh;
     max-width: 100%;
+    background-color: #EA620E;
 }
 
 .slide-container {
@@ -234,7 +235,7 @@ header {
 .container2 {
     height: 90vh;
     max-width: 100%;
-    background-color: yellow;
+    background-color: #49428A;
 }
 
 .container2 > h2 {
@@ -246,16 +247,180 @@ header {
 
 /* CONTAINER 2 END */
 
+/* CONTAINER 3 */
+
 .container3 {
     height: 90vh;
     max-width: 100%;
-    background-color: blue;
+    background-color: #FFEECE;
 }
+
+.container3 > h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    padding-top: 20px;
+}
+
+.ensom-box {
+    width: 19.2%;
+    height: 20rem;
+    float: left;
+    margin-left: 10px;
+    margin-top: 150px;
+    opacity: 50%;
+    transition: margin-top 1s;
+    position: relative;
+}
+
+.ensom-box:nth-child(2) {
+    background-image: url("images/ensomhed-box.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: green;
+}
+
+.ensom-box:nth-child(3) {
+    background-image: url("images/tegning-ensomhed.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ensom-box:nth-child(4) {
+    background-image: url("images/ventilen-box.jpg");
+    color: red;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ensom-box:nth-child(5) {
+    background-image: url("images/frivillig-box.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ensom-box:nth-child(6) {
+    background-image: url("images/selv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ensom-box:hover {
+    opacity: 100%;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.ensom-box > h3 {
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 37%;
+}
+
+/*#background-opacity {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 50%;
+    display: none;
+}*/
+
+#myFormEnsom {
+    width: 90%;
+    position: absolute;
+    height: 80vh;
+    background-color: white;
+    /*margin: 0 auto;*/
+    left: 5%;
+    padding: 0;
+    display: none;
+    z-index: 9;
+}
+
+#myFormEnsom > h2 {
+    margin-left: 45%;
+    margin-top: 1%;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+#myFormEnsom > h4 {
+    margin-top: 1%;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+    float: left;
+}
+
+#myFormEnsom > ol {
+    float: left;
+    margin-top: 2%;
+    margin-left: 100px;
+}
+
+#myFormEnsom > ol li {
+    font-family: droid-serif, serif;
+    line-height: 50px;
+}
+
+#myFormEnsom > p {
+    font-family: droid-serif, serif;
+    margin-top: 2%;
+    float: left;
+    margin-left: 100px;
+}
+
+#myFormSygdom {
+    width: 90%;
+    position: absolute;
+    height: 80vh;
+    background-color: white;
+    /*margin: 0 auto;*/
+    left: 5%;
+    padding: 0;
+    display: none;
+}
+
+#myFormSygdom > h2 {
+    margin-left: 40%;
+    margin-top: 1%;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+#myFormSygdom > p {
+    font-family: droid-serif, serif;
+    margin-top: 2%;
+    margin-left: 100px;
+    float: left;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url("images/close.png");
+}
+
+.close:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+
+/* CONTAINER 3 END */
 
 .container4 {
     height: 90vh;
     max-width: 100%;
-    background-color: green;
+    background-color: #FFF381
 }
 
 /* FOOTER */
@@ -263,7 +428,7 @@ header {
 footer {
    max-width: 100%;
    height: 12vh;
-   background-color: aquamarine; 
+   background-color: #C1DFC2; 
 }
 
 footer > img {
@@ -279,6 +444,7 @@ footer > ul {
     float: right;
     display: flex;
     margin-top: 40px;
+    list-style-type: none;
 }
 
 footer > ul li a {
