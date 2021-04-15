@@ -160,6 +160,18 @@ header {
     cursor: pointer;
 }
 
+.main-menu > span {
+    padding: 10px;
+    position: relative;
+} 
+
+.main-menu > span a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: droid-serif, serif;
+}
+
 /* HEADER END */
 
 /* CONTAINER 1 */
@@ -186,7 +198,7 @@ header {
     display: none;
     position: relative;
 }
-
+/*
 .textBoxSlide {
     width: 100%;
     height: 50px;
@@ -200,7 +212,7 @@ header {
     padding-top: 12px;
     font-family: droid-serif, serif;
 }
-
+*/
 .slide-ani {
     animation-name: slide-ani;
     animation-duration: 2s;
@@ -245,6 +257,14 @@ header {
     padding-top: 20px;
 }
 
+.text-box-big {
+    width: 90%;
+    height: 80vh;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 /* CONTAINER 2 END */
 
 /* CONTAINER 3 */
@@ -256,10 +276,80 @@ header {
 }
 
 .container3 > h2 {
-    text-align: center;
     font-size: 30px;
     font-family: montserrat, sans-serif;
     padding-top: 20px;
+    float: left;
+    margin-left: 22rem;
+}
+
+.container3 > h2:nth-child(2) {
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    padding-top: 20px;
+    float: left;
+    margin-left: 36rem;
+}
+
+.text-box {
+    width: 40%;
+    height: 45rem;
+    background-color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+/* CONTAINER 3 END */
+
+/* CONTAINER 4 */
+
+.container4 {
+    height: 90vh;
+    max-width: 100%;
+    background-color: #FFF381
+}
+
+.container4 > h2 {
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    padding-top: 20px;
+    float: left;
+    margin-left: 22rem;
+}
+
+.container4 > h2:nth-child(2) {
+    font-size: 30px;
+    font-family: montserrat, sans-serif;
+    padding-top: 20px;
+    float: left;
+    margin-left: 36rem;
+}
+
+.text-box {
+    width: 40%;
+    height: 45rem;
+    background-color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+/* CONTAINER 4  END*/
+
+/* CONTAINER 5 */
+
+.container5 {
+    height: 90vh;
+    max-width: 100%;
+    background-color: #49428A;
+}
+
+.container5 > h2 {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    padding-top: 2%;
 }
 
 .ensom-box {
@@ -267,7 +357,7 @@ header {
     height: 20rem;
     float: left;
     margin-left: 10px;
-    margin-top: 150px;
+    margin-top: 12%;
     opacity: 50%;
     transition: margin-top 1s;
     position: relative;
@@ -414,20 +504,13 @@ header {
     cursor: pointer;
 }
 
-
-/* CONTAINER 3 END */
-
-.container4 {
-    height: 90vh;
-    max-width: 100%;
-    background-color: #FFF381
-}
+/* CONTAINER 5 END*/
 
 /* FOOTER */
 
 footer {
    max-width: 100%;
-   height: 12vh;
+   height: 30vh;
    background-color: #C1DFC2; 
 }
 
