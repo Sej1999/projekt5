@@ -24,6 +24,25 @@ slides[slideCount-1].style.display = "block";
 setTimeout(showSlides, 12000);
 }
 
+
+// Christian H //
+
+let btn = document.getElementById('btn');
+let output = document.getElementById('output');
+let quotes = [
+'"Hej med dig"',
+'"hej med dig2"',
+'"hej med dig3"',
+];
+
+btn.addEventListener('click', function(){
+var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
+output.innerHTML = randomQuote;
+})
+
+// Christian H //
+
+
 //Overlay
 //The code is inspired by w3school; https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_chat
 function openFormEnsom() {
