@@ -1,5 +1,6 @@
 console.log('core.js is working!');
-//Slide
+
+//Slide Stefan E.J
 var slideCount = 0;
 
 
@@ -24,15 +25,17 @@ slides[slideCount-1].style.display = "block";
 setTimeout(showSlides, 12000);
 }
 
+//Stefan E.J
 
 // Christian H //
 
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
 let quotes = [
-'"Hej med dig"',
-'"hej med dig2"',
-'"hej med dig3"',
+'"POGU" - Jakob 2021',
+'"Alright, super!" - Christian H',
+'"VR CHAT!" - Simon',
+'"Jeg vil gerne have projekt5 overstået.. :)" - Stefan',
 ];
 
 btn.addEventListener('click', function(){
@@ -43,7 +46,7 @@ output.innerHTML = randomQuote;
 // Christian H //
 
 
-//Overlay
+//Overlay Stefan E.J
 //The code is inspired by w3school; https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_chat
 function openFormEnsom() {
     document.getElementById("myFormEnsom").style.display = "block";
@@ -62,3 +65,4 @@ function openFormSygdom() {
 function closeFormSygdom() {
     document.getElementById("myFormSygdom").style.display = "none";
 }
+//Stefan E.J

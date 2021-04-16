@@ -186,7 +186,7 @@ header {
 .slide-container {
     border: 1px solid black;
     width: 90rem;
-    height: 600px;
+    height: 45.1rem;
     float: left;
     margin-left: 200px;
     margin-top: 50px;
@@ -194,7 +194,7 @@ header {
 
 .slideImg {
     width: 100%;
-    height: 600px;
+    height: 45rem;
     display: none;
     position: relative;
 }
@@ -282,6 +282,7 @@ header {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-top: 10px;
+    background-image: url("images/banner-background.png");
 }
 
  /* #citatcontainer {
@@ -290,21 +291,31 @@ header {
   width: 750px;
   height: 775px; 
   margin: 0 auto;
-  text-align: center; */
-}
+  text-align: center; 
+}*/
+
+#output {
+    margin: 25px auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: droid-serif, serif;
+  }
 
 #btn {
-  margin: 50px auto;
+  margin: 20px auto;
   height: 50px;
   width: 250px;
   font-size: 22px;
-  background-color: white;
+  background-color: #EA620E;
+  margin-left: 43.2%;
+  border: 2px solid #49428A;
+  color: white;
 }
 
-#output {
-  margin: 25px auto;
-  font-size: 26px;
-  color: white;
+#btn:hover {
+    opacity: 0.8;
 }
 
 /* CONTAINER 2 END */
