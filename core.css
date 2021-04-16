@@ -185,11 +185,11 @@ header {
 
 .slide-container {
     border: 1px solid black;
-    width: 80rem;
+    width: 90rem;
     height: 600px;
     float: left;
-    margin-left: 300px;
-    margin-top: 30px;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
 .slideImg {
@@ -223,6 +223,17 @@ header {
     from{opacity: 100%; left: 0;}
     to{opacity: 0%; left: 200px}
 }
+
+/*.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+*/
 
 /*
 .dot-container {
@@ -259,9 +270,17 @@ header {
 
 .text-box-big {
     width: 90%;
-    height: 80vh;
+    height: 60vh;
     background-color: white;
     margin: 0 auto;
+    margin-top: 10px;
+}
+
+#banner {
+    width: 100%;
+    height: 20vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin-top: 10px;
 }
 
@@ -300,6 +319,30 @@ header {
     margin-top: 20px;
 }
 
+.text-box > p {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text-box > ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text-box > ol li {
+    font-family: montserrat, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.text-box > img {
+    width: 100%;
+    margin-top: 20px;
+}
 
 /* CONTAINER 3 END */
 
@@ -358,7 +401,7 @@ header {
     height: 20rem;
     float: left;
     margin-left: 10px;
-    margin-top: 12%;
+    margin-top: 8%;
     opacity: 50%;
     transition: margin-top 1s;
     position: relative;
@@ -544,7 +587,7 @@ footer > ul li a:hover {
 }
 
 .contact {
-    height: 100%;
+    height: 40%;
     width: 25rem;
     float: right;
 }
@@ -562,7 +605,7 @@ footer > ul li a:hover {
 }
 
 .soMe-box {
-    height: 100%;
+    height: 40%;
     width: 25rem;
     float: right;
 }
@@ -587,5 +630,20 @@ footer > ul li a:hover {
 .soMe-box > img:hover {
     opacity: 60%;
     cursor: pointer;
+}
+
+.samarbejde {
+    width: 50%;
+    height: 8.5rem;
+    background-color: #EA620E;
+    float: left;
+    margin-top: 20px;
+    margin-left: 49%;
+}
+
+.samarbejde > h4 {
+    font-family: droid-serif, serif;
+    text-align: center;
+    font-weight: 600;
 }
 /* FOOTER END */
