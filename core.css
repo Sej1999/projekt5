@@ -276,6 +276,14 @@ header {
     margin-top: 10px;
 }
 
+.text-box-big > p {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
 #banner {
     width: 100%;
     height: 20vh;
