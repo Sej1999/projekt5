@@ -689,6 +689,8 @@ footer > ul li a:hover {
     font-weight: 600;
 }
 /* FOOTER END */
+
+/* Simon's JavaScript */
 #myBtn {
     display: none;
     position: fixed;
@@ -710,3 +712,4 @@ footer > ul li a:hover {
     color: #ea620e;
     background-color: #606060;
   }
+/* Simon's JavaScript END */
