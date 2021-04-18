@@ -689,3 +689,24 @@ footer > ul li a:hover {
     font-weight: 600;
 }
 /* FOOTER END */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #606060;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 18px;
+    transform: scale(2.5, 1.5);
+  }
+  
+  #myBtn:hover {
+    color: #ea620e;
+    background-color: #606060;
+  }

@@ -8,7 +8,7 @@ var slideCount = 0;
 //    showSlides(slideIndex = 1)
 //}
 
-showSlides();
+
 function showSlides() {
     var count;
     var slides = document.getElementsByClassName("slideImg");
@@ -24,7 +24,7 @@ if (slideCount > slides.length) {slideCount = 1}
 slides[slideCount-1].style.display = "block";
 setTimeout(showSlides, 12000);
 }
-
+showSlides();
 //Stefan E.J
 
 // Christian H //
@@ -66,3 +66,23 @@ function closeFormSygdom() {
     document.getElementById("myFormSygdom").style.display = "none";
 }
 //Stefan E.J
+
+//Simon
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+topFunction()
+//Simon
