@@ -89,3 +89,27 @@ function topFunction() {
 }
 topFunction()
 //Simon
+
+//Jakob
+function sec1() {
+  var elmnt1 = document.getElementById("container1");
+  elmnt1.scrollIntoView();
+}
+function sec2() {
+  var elmnt2 = document.getElementById("container2");
+  elmnt2.scrollIntoView();
+}
+function sec3() {
+  var elmnt3 = document.getElementById("container3");
+  elmnt3.scrollIntoView();
+}
+function sec4() {
+  var elmnt4 = document.getElementById("container4");
+  elmnt4.scrollIntoView();
+}
+function sec5() {
+  var elmnt5 = document.getElementById("container5");
+  elmnt5.scrollIntoView();
+}
+
+//Jakob
