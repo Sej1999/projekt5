@@ -6,113 +6,6 @@
     padding: 0;
 }
 
-/*Montserrat Regular
-
-font-family: montserrat, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-
-
-Montserrat Italic
-
-font-family: montserrat, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Montserrat Bold
-
-font-family: montserrat, sans-serif;
-
-font-weight: 700;
-
-font-style: normal;
-
-
-Montserrat Bold Italic
-
-font-family: montserrat, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;
-
-
-Montserrat Alternates Regular
-
-font-family: montserrat-alternates, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-
-
-Montserrat Alternates Italic
-
-font-family: montserrat-alternates, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Montserrat Alternates Bold
-
-font-family: montserrat-alternates, sans-serif;
-
-font-weight: 700;
-
-font-style: normal;
-
-
-Montserrat Alternates Bold Italic
-
-font-family: montserrat-alternates, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;*/
-
-/*Droid Serif Regular
-
-font-family: droid-serif, serif;
-
-font-weight: 400;
-
-font-style: normal;
-
-
-Droid Serif Bold
-
-font-family: droid-serif, serif;
-
-font-weight: 700;
-
-font-style: normal;
-
-
-Droid Serif Italic
-
-font-family: droid-serif, serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Droid Serif Bold Italic
-
-font-family: droid-serif, serif;
-
-font-weight: 700;
-
-font-style: italic;*/
-
-
 /* HEADER */
 header {
     height: 10vh;
@@ -124,13 +17,18 @@ header {
 }
 
 #logo {
+    width: 7%;
+    float: left;
+}
 
+#logo:hover {
+    opacity: 70%;
 }
 
 .main-menu {
     float: right;
     display: flex;
-    margin-top: 15px;
+    margin-top: 1.8%;
     margin-right: 30px;
     list-style-type: none;
 }
@@ -600,6 +498,14 @@ footer {
    background-color: #C1DFC2;
 }
 
+#footer-logo {
+    width: 9%;
+}
+
+#footer-logo:hover {
+    opacity: 70%;
+}
+
 footer > img {
     float: left;
     width: 100px;
@@ -677,9 +583,9 @@ footer > ul li a:hover {
 .samarbejde {
     width: 50%;
     height: 8.5rem;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 49%;
 }
 
@@ -687,6 +593,12 @@ footer > ul li a:hover {
     font-family: droid-serif, serif;
     text-align: center;
     font-weight: 600;
+}
+
+.samarbejde > img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
 }
 /* FOOTER END */
 
