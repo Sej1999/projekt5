@@ -303,7 +303,7 @@ header {
 }*/
 
 #output {
-    margin: 25px auto;
+    margin: 15px auto;
     font-size: 30px;
     font-weight: bold;
     color: black;
@@ -312,7 +312,7 @@ header {
   }
 
 #btn {
-  margin: 20px auto;
+  margin: 10px auto;
   height: 50px;
   width: 250px;
   font-size: 22px;
@@ -677,7 +677,7 @@ footer > ul li a:hover {
 .samarbejde {
     width: 50%;
     height: 8.5rem;
-    background-color: #EA620E;
+    border: 1px solid black;
     float: left;
     margin-top: 20px;
     margin-left: 49%;
@@ -699,7 +699,7 @@ footer > ul li a:hover {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #000000;
+    background-color: #ea620e;
     color: #606060;
     cursor: pointer;
     padding: 5px;

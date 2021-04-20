@@ -32,10 +32,13 @@ showSlides();
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
 let quotes = [
-'"POGU" - Jakob 2021',
-'"Alright, super!" - Christian H',
-'"VR CHAT!" - Simon',
-'"Jeg vil gerne have projekt5 overstået.. :)" - Stefan',
+'"Det er rart at have noget at se frem til, når alt andet føles trist" - Ung fra et af Ventilens lokale tilbud',
+'"Du er ikke alene om at føle dig alene" - Ventilen',
+'"De 16-29-årige er den aldersgruppe, hvor flest føler sig ensomme" - Ventilen',
+'"Ensomhed er ikke en sygdom, dog kan det være med til at udvikle psykiske sygdomme" - Ventilen',
+'"Vær ærlig over for dig selv og indrøm, hvis du har det svært" - Frederik 27 år',
+'"Forsøg at være taknemmelig. Jeg værdsætter de fællesskaber, jeg faktisk kan være en del af nu" - Mathilde 23 år',
+'"Gør noget som giver dig energi. Det får både de negative tanker væk og giver overskud til at række ud til andre" - bruger af Ventilen',
 ];
 
 btn.addEventListener('click', function(){
