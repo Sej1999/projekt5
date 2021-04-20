@@ -29,9 +29,9 @@ showSlides();
 
 // Christian H //
 
-let btn = document.getElementById('btn');
-let output = document.getElementById('output');
-let quotes = [
+var btn = document.getElementById('btn');
+var output = document.getElementById('output');
+var citater = [
 '"Det er rart at have noget at se frem til, når alt andet føles trist" - Ung fra et af Ventilens lokale tilbud',
 '"Du er ikke alene om at føle dig alene" - Ventilen',
 '"De 16-29-årige er den aldersgruppe, hvor flest føler sig ensomme" - Ventilen',
@@ -42,9 +42,16 @@ let quotes = [
 ];
 
 btn.addEventListener('click', function(){
-var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-output.innerHTML = randomQuote;
+var vistcitat = citater[Math.floor(Math.random() * citater.length)]
+output.innerHTML = vistcitat;
 })
+
+
+//Lavet med inspiration fra:
+//https://www.w3schools.com/js/js_math.asp
+//https://www.youtube.com/watch?v=NmstSmMykqc
+
+//note: Math.ceil for at runde op til nærmeste int
 
 // Christian H //
 
